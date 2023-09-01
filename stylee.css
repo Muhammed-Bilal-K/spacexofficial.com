@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.logo img {
+    width: 210px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 80px;
+}
+
+.spacexbg {
+    background-image: url(../img/section-a.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.items a:hover {
+    color: rgb(238, 222, 222);
+    opacity: 0.9;
+    transform: scale(1);
+}
+
+.items {
+    margin: 4px 37px;
+    font-weight: 700;
+}
+
+.items a {
+    margin: 0px 14px;
+    text-decoration: none;
+    color: #FFF;
+    padding-bottom: 2px;
+    font-family: sans-serif;
+
+}
+
+section {
+    position: absolute;
+    bottom: 16rem;
+    left: 13rem;
+    line-height: 17px;
+    font-size: 4rem;
+}
+
+section-b {
+    position: relative;
+}
+
+.spacexbg-1 {
+    background-image: url(../img/section-b.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section-1 {
+    position: absolute;
+    bottom: 16rem;
+    left: 13rem;
+}
+
+.section-one {
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 7px;
+}
+
+.section-one a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 17px 46px;
+}
+
+.spacexbg-2 {
+    background-image: url(../img/section-c.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.spacexbg-3 {
+    background-image: url(../img/section-d.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.spacexbg-4 {
+    background-image: url(../img/section-e.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.spacexbg-5 {
+    background-image: url(../img/section-f.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.footer {
+    width: 100%;
+    height: 7.4rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 4rem;
+}
+
+.media a {
+    margin: 15px 26px;
+    text-decoration: none;
+    color: ivory;
+}
+
+.media p {
+    color: ivory;
+}
+
+
